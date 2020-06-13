@@ -11,7 +11,7 @@
   </ul>
 </div>
 </div>
-		<h1>Lista de Productos</h1>
+		<h1>Lista de Productos unir</h1>
 		<div class="clearfix"></div>
 
 

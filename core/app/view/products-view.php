@@ -11,7 +11,7 @@
   </ul>
 </div>
 </div>
-		<h1>Lista de Productos go</h1>
+		<h1>Lista de Productos yaa</h1>
 		<div class="clearfix"></div>
 
 

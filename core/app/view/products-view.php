@@ -81,7 +81,7 @@ if($px<=$npaginas):
 		<td><?php echo $product->name; ?></td>
 
 		<td>S/. <?php echo number_format($product->price_in,2,'.',','); ?></td>
-		<td>$ <?php echo number_format($product->price_in,2,'.',','); ?></td>
+		<td>S/ <?php echo number_format($product->price_in,2,'.',','); ?></td>
 
 		<td>S/.	 <?php echo number_format($product->price_out,2,'.',','); ?></td>
 		<td><?php if($product->category_id!=null){echo $product->getCategory()->name;}else{ echo "<center>----</center>"; }  ?></td>

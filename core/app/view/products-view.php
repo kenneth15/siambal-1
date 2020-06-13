@@ -80,7 +80,7 @@ if($px<=$npaginas):
 		</td>
 		<td><?php echo $product->name; ?></td>
 		<td>S/HELLO MUNDO <?php echo number_format($product->price_in,2,'.',','); ?></td>
-		<td>S/.	 <?php echo number_format($product->price_out,2,'.',','); ?></td>
+		<td>S//.	 <?php echo number_format($product->price_out,2,'.',','); ?></td>
 		<td><?php if($product->category_id!=null){echo $product->getCategory()->name;}else{ echo "<center>----</center>"; }  ?></td>
 		<td><?php echo $product->inventary_min; ?></td>
 		<td><?php if($product->is_active): ?><i class="fa fa-check"></i><?php endif;?></td>
